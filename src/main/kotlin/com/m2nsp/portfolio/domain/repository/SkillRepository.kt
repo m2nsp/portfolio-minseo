@@ -3,6 +3,7 @@ package com.m2nsp.portfolio.domain.repository
 import com.m2nsp.portfolio.domain.constant.SkillType
 import com.m2nsp.portfolio.domain.entity.Skill
 import org.springframework.data.jpa.repository.JpaRepository
+import java.util.*
 
 interface SkillRepository : JpaRepository<Skill, Long> {
 
